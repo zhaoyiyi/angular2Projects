@@ -1,0 +1,33 @@
+<section class="doctors row">
+  <div class="doctors-list col-xs-12 col-sm-7">
+    <header>
+      <h2>doctors</h2>
+      <button type="button" class="btn" (click)="newDoctor()">new doctor</button>
+    </header>
+    <p *ngIf="!doctors">Loading Doctors...</p>
+    <ul *ngIf="doctors">
+      <li
+        *ngFor="#doctor of doctors"
+        (mouseenter)="hoverStream.next(doctor)"
+        (click)="toDetailPage()">
+        <img src="app/assets/Mario-Icon.png" alt="" class="img-circle">
+        {{doctor.first_name}} {{doctor.last_name}}
+      </li>
+    </ul>
+  </div>
+
+  <div class="doctors-info col-xs-12 col-sm-5" *ngIf="selectedDoctor">
+    <div class="panel">
+      <header class="panel-heading  text-center">
+        <img src="app/assets/Mario-Icon.png" alt="">
+        <h3>{{selectedDoctor.first_name}} {{selectedDoctor.last_name}}</h3>
+      </header>
+      <div class="panel-body info">
+        <p data-label="id">{{selectedDoctor.id}}</p>
+        <p data-label="department">{{selectedDoctor.department}}</p>
+        <p data-label="phone">{{selectedDoctor.phone}}</p>
+        <p data-label="email">{{selectedDoctor.email}}</p>
+      </div>
+    </div>
+  </div>
+</section>

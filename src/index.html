@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <title></title>
+    <!-- build:css css/vendor.css -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- endbuild -->
+    <!-- build:js js/vendor.js -->
+    <script src="../node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+
+    <script src="../node_modules/ramda/dist/ramda.min.js" charset="utf-8"></script>
+
+
+    <!-- angular -->
+    <script src="../node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="../node_modules/systemjs/dist/system.src.js"></script>
+    <script src="../node_modules/es6-shim/es6-shim.js"></script>
+    <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="../node_modules/angular2/bundles/http.dev.js"></script>
+    <script src="../node_modules/angular2/bundles/router.dev.js"></script>
+    <!-- endbuild -->
+    <!-- build:js js/rx.js -->
+    <script src="../node_modules/rxjs/bundles/Rx.js"></script>
+    <!-- endbuild -->
+    <script>
+    System.config({
+      packages: {
+        'app': {
+          format: 'register',
+          defaultExtension: 'js'
+        }
+      },
+      path: {
+        'rxjs': 'js/Rx.js'
+      }
+    });
+    System.import('/app/boot')
+      .then(null, console.error.bind(console));
+    </script>
+  </head>
+  <body>
+    <app>Loading...</app>
+  </body>
+</html>

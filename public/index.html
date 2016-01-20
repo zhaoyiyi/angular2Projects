@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/vendor.css">
+    <script src="js/vendor.js"></script>
+    <script src="js/rx.js"></script>
+    <script>
+    System.config({
+      packages: {
+        'app': {
+          format: 'register',
+          defaultExtension: 'js'
+        }
+      },
+      path: {
+        'rxjs': 'js/Rx.js'
+      }
+    });
+    System.import('/app/boot')
+      .then(null, console.error.bind(console));
+    </script>
+  </head>
+  <body>
+    <app>Loading...</app>
+  </body>
+</html>

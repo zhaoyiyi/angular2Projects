@@ -1,0 +1,38 @@
+$backgroundColor: lightslategrey
+$seperator: darken($backgroundColor, 20%)
+$borderWeight: 10px
+
+
+
+h2
+  color: lighten($backgroundColor, 35%)
+  text-decoration: none
+  font-size: 1.1em
+  padding: 1em 1em
+
+ul
+  list-style: none
+  padding: 1em 0 1em 0
+  border-top: 3px solid $seperator
+  border-bottom: 3px solid $seperator
+
+  li
+    box-sizing: border-box
+    transition: background 0.1s ease
+    a
+      display: block
+      color: lighten($backgroundColor, 35%)
+      text-decoration: none
+      font-size: 1.1em
+      padding: 1em 1em
+      &:hover
+        background: darken($backgroundColor, 20%)
+        border-right: $borderWeight solid skyblue
+        color: white
+    span
+      margin-right: 0.5em
+
+.router-link-active
+  background: darken($backgroundColor, 20%)
+  border-right: $borderWeight solid skyblue
+  color: white

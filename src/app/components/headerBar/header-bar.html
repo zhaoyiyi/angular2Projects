@@ -1,0 +1,21 @@
+  <div class="header-search input-group input-group-lg col-sm-8">
+    <label for="search-bar" class="hidden">search</label>
+    <span class="input-group-addon">
+      <span class="glyphicon glyphicon-search"></span>
+    </span>
+    <input type="text" id="search-bar" class="form-control"
+      (keyup)="onSearch(searchBox.value)"
+      #searchBox>
+  </div>
+
+  <div class="header-controls text-right col-sm-4">
+    <button class="btn btn-lg btn-default" type="button">
+      <span class="glyphicon glyphicon-user"></span>
+    </button>
+    <button class="btn btn-lg btn-default" type="button">
+      <span class="glyphicon glyphicon-th"></span>
+    </button>
+    <button class="btn btn-lg btn-default" type="button">
+      <span class="glyphicon glyphicon-cog"></span>
+    </button>
+  </div>

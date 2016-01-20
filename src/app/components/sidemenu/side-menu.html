@@ -1,0 +1,10 @@
+<h2>{{label}}</h2>
+
+<ul>
+  <li *ngFor="#item of menu">
+    <a [routerLink]="[item.name]">
+    <span class="glyphicon {{item.glyphicon}}"></span>
+    {{item.label}}
+    </a>
+  </li>
+</ul>

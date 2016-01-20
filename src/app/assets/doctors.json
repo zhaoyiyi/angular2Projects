@@ -1,0 +1,212 @@
+[
+  {
+    "id": 0,
+    "first_name": "Burris",
+    "last_name": "Puckett",
+    "email": "BurrisPuckett@brdhc.on.ca",
+    "department": "Anaesthetics"
+  },
+  {
+    "id": 1,
+    "first_name": "Beryl",
+    "last_name": "Bradshaw",
+    "email": "BerylBradshaw@brdhc.on.ca",
+    "department": "Radiotherapy"
+  },
+  {
+    "id": 2,
+    "first_name": "Shannon",
+    "last_name": "Taylor",
+    "email": "ShannonTaylor@brdhc.on.ca",
+    "department": "Orthopaedics"
+  },
+  {
+    "id": 3,
+    "first_name": "Rodgers",
+    "last_name": "Small",
+    "email": "RodgersSmall@brdhc.on.ca",
+    "department": "Anaesthetics"
+  },
+  {
+    "id": 4,
+    "first_name": "Olivia",
+    "last_name": "Mckay",
+    "email": "OliviaMckay@brdhc.on.ca",
+    "department": "Nutrition and dietetics"
+  },
+  {
+    "id": 5,
+    "first_name": "Ruiz",
+    "last_name": "Wilder",
+    "email": "RuizWilder@brdhc.on.ca",
+    "department": "General surgery"
+  },
+  {
+    "id": 6,
+    "first_name": "Jillian",
+    "last_name": "Boone",
+    "email": "JillianBoone@brdhc.on.ca",
+    "department": "Neurology"
+  },
+  {
+    "id": 7,
+    "first_name": "Kaufman",
+    "last_name": "Larson",
+    "email": "KaufmanLarson@brdhc.on.ca",
+    "department": "General surgery"
+  },
+  {
+    "id": 8,
+    "first_name": "Rosalie",
+    "last_name": "Bradford",
+    "email": "RosalieBradford@brdhc.on.ca",
+    "department": "Ear nose and throat (ENT)"
+  },
+  {
+    "id": 9,
+    "first_name": "Albert",
+    "last_name": "Caldwell",
+    "email": "AlbertCaldwell@brdhc.on.ca",
+    "department": "Neurology"
+  },
+  {
+    "id": 10,
+    "first_name": "Avila",
+    "last_name": "Anderson",
+    "email": "AvilaAnderson@brdhc.on.ca",
+    "department": "Occupational therapy"
+  },
+  {
+    "id": 11,
+    "first_name": "Brigitte",
+    "last_name": "Ratliff",
+    "email": "BrigitteRatliff@brdhc.on.ca",
+    "department": "Occupational therapy"
+  },
+  {
+    "id": 12,
+    "first_name": "Jenkins",
+    "last_name": "Martin",
+    "email": "JenkinsMartin@brdhc.on.ca",
+    "department": "General surgery"
+  },
+  {
+    "id": 13,
+    "first_name": "Odom",
+    "last_name": "Harper",
+    "email": "OdomHarper@brdhc.on.ca",
+    "department": "Radiotherapy"
+  },
+  {
+    "id": 14,
+    "first_name": "Osborne",
+    "last_name": "England",
+    "email": "OsborneEngland@brdhc.on.ca",
+    "department": "Anaesthetics"
+  },
+  {
+    "id": 15,
+    "first_name": "Cohen",
+    "last_name": "Byrd",
+    "email": "CohenByrd@brdhc.on.ca",
+    "department": "Neurology"
+  },
+  {
+    "id": 16,
+    "first_name": "Roman",
+    "last_name": "Albert",
+    "email": "RomanAlbert@brdhc.on.ca",
+    "department": "Chaplaincy"
+  },
+  {
+    "id": 17,
+    "first_name": "Susan",
+    "last_name": "Davidson",
+    "email": "SusanDavidson@brdhc.on.ca",
+    "department": "Elderly services department"
+  },
+  {
+    "id": 18,
+    "first_name": "Kristie",
+    "last_name": "Gallagher",
+    "email": "KristieGallagher@brdhc.on.ca",
+    "department": "Diagnostic imaging"
+  },
+  {
+    "id": 19,
+    "first_name": "Ingram",
+    "last_name": "Solis",
+    "email": "IngramSolis@brdhc.on.ca",
+    "department": "Diagnostic imaging"
+  },
+  {
+    "id": 20,
+    "first_name": "Saundra",
+    "last_name": "Gibson",
+    "email": "SaundraGibson@brdhc.on.ca",
+    "department": "General surgery"
+  },
+  {
+    "id": 21,
+    "first_name": "Lauren",
+    "last_name": "Conner",
+    "email": "LaurenConner@brdhc.on.ca",
+    "department": "Occupational therapy"
+  },
+  {
+    "id": 22,
+    "first_name": "Eliza",
+    "last_name": "Shannon",
+    "email": "ElizaShannon@brdhc.on.ca",
+    "department": "Orthopaedics"
+  },
+  {
+    "id": 23,
+    "first_name": "Maribel",
+    "last_name": "Greer",
+    "email": "MaribelGreer@brdhc.on.ca",
+    "department": "Diagnostic imaging"
+  },
+  {
+    "id": 24,
+    "first_name": "Savannah",
+    "last_name": "Witt",
+    "email": "SavannahWitt@brdhc.on.ca",
+    "department": "Radiotherapy"
+  },
+  {
+    "id": 25,
+    "first_name": "Edith",
+    "last_name": "Boyd",
+    "email": "EdithBoyd@brdhc.on.ca",
+    "department": "Elderly services department"
+  },
+  {
+    "id": 26,
+    "first_name": "Nannie",
+    "last_name": "Jacobson",
+    "email": "NannieJacobson@brdhc.on.ca",
+    "department": "Neurology"
+  },
+  {
+    "id": 27,
+    "first_name": "Buckner",
+    "last_name": "Ware",
+    "email": "BucknerWare@brdhc.on.ca",
+    "department": "Occupational therapy"
+  },
+  {
+    "id": 28,
+    "first_name": "Bernadette",
+    "last_name": "Fowler",
+    "email": "BernadetteFowler@brdhc.on.ca",
+    "department": "Chaplaincy"
+  },
+  {
+    "id": 29,
+    "first_name": "Holland",
+    "last_name": "Head",
+    "email": "HollandHead@brdhc.on.ca",
+    "department": "Nutrition and dietetics"
+  }
+]

@@ -1,0 +1,38 @@
+<span *ngIf="!doctor">Loading doctor {{id}}</span>
+<button class="button" (click)="goBack()">back</button>
+
+<div class="doctors-info"
+  *ngIf="doctor || isCreating">
+  <form class="panel panel-default" [ngFormModel]="doctorForm" (ngSubmit)="onSubmit(doctorForm.value)">
+    <header class="panel-heading  text-center">
+      <img src="app/assets/Mario-Icon.png" alt="">
+      <h3>
+        <input type="text" placeholder="first name" [ngFormControl]="doctorForm.controls['first_name']" [disabled]="!isEditing" >
+        <input type="text" placeholder="last name" [ngFormControl]="doctorForm.controls['last_name']" [disabled]="!isEditing" >
+      </h3>
+    </header>
+    <div class="panel-body info">
+      <label for="id">id</label>
+      <input id="id" type="text" [ngFormControl]="doctorForm.controls['id']" [disabled]="!isEditing" >
+
+      <label for="department">department</label>
+      <input id="department" type="text" [ngFormControl]="doctorForm.controls['department']" [disabled]="!isEditing" >
+
+      <label for="phone">phone</label>
+      <input id="phone" type="text" [ngFormControl]="doctorForm.controls['phone']" [disabled]="!isEditing">
+
+      <label for="email">email</label>
+      <input id="email" type="text" [ngFormControl]="doctorForm.controls['email']" [disabled]="!isEditing">
+
+      <div *ngIf="!isEditing">
+        <button type="button" class="btn btn-primary" (click)="edit()">edit doctor</button>
+      </div>
+      <div *ngIf="isEditing">
+        <button type="submit" class="btn btn-success">save</button>
+        <button type="button" class="btn btn-warning"  (click)="exitEditing()">cancel</button>
+        <button type="button" class="btn btn-danger" *ngIf="!isCreating" (click)="deleteDoctor()">delete</button>
+      </div>
+    </div>
+    {{doctorForm.value|json}}
+  </form>
+</div>

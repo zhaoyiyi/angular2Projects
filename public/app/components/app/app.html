@@ -1,0 +1,9 @@
+
+<side-menu label="Menu"> </side-menu>
+
+<main class="">
+  <header-bar (search)="onSearch($event)"></header-bar>
+  {{searchText}}
+
+  <router-outlet [searchText]=""></router-outlet>
+</main>

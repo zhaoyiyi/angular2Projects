@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "files": [
+        "src/app/boot.ts",
+        "src/app/components/app/app.component.ts",
+        "src/app/components/doctors/detail.component.ts",
+        "src/app/components/doctors/doctor.ts",
+        "src/app/components/doctors/doctors.component.ts",
+        "src/app/components/doctors/doctors.service.ts",
+        "src/app/components/doctors/list.component.ts",
+        "src/app/components/headerBar/headerBar.component.ts",
+        "src/app/components/home/home.ts",
+        "src/app/components/sidemenu/menu.service.ts",
+        "src/app/components/sidemenu/sidemenu.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
