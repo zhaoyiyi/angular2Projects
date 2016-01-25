@@ -68,7 +68,7 @@ System.register(['angular2/core', 'angular2/http', 'angular2/router', 'angular2/
                         this.createDoctor(doctor);
                         this.isCreating = false;
                     }
-                    if (this.isEditing) {
+                    else {
                         this.updateDoctor(doctor);
                         this.isEditing = false;
                     }

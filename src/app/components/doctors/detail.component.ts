@@ -61,8 +61,7 @@ export class DetailComponent implements OnInit{
     if(this.isCreating){
       this.createDoctor(doctor);
       this.isCreating = false;
-    }
-    if(this.isEditing){
+    }else{
       this.updateDoctor(doctor);
       this.isEditing = false;
     }
