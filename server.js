@@ -16,7 +16,8 @@ app.listen(port, appStart);
 // Mongodb
 
 // TODO: put it in a seperate file
-mongoose.connect('mongodb://localhost/hospital');
+var cs = process.env.PROD_MONGODB || 'mongodb://localhost/hospital';
+mongoose.connect(cs);
 var db = mongoose.connection;
 db.on('error', () => {console.log('db error');});
 db.once('open', () => {console.log('db connect successful');});
